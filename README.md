@@ -10,9 +10,12 @@ This is a simple financial command line tool that currently has support for thes
 ## Black Scholes Model
 
 To price a call option C, we have:
-![image](https://user-images.githubusercontent.com/73012906/206797035-5b0565b2-e235-4335-8b28-65f3f263d574.png)
-where d1 = ![image](https://user-images.githubusercontent.com/73012906/206797080-d498b517-1c05-4a33-a9e7-365365836f9c.png)
-and d2 = ![image](https://user-images.githubusercontent.com/73012906/206797102-01fb2cb6-b418-4f4b-91f7-baf732c02731.png)
+\begin{equation}
+	\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
+	+ \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+	\mathrm r \mathrm C 
+	\label{eq:1}
+\end{equation}
 
 In this formula,
 C = the price of our call option AKA the final output
