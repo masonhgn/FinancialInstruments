@@ -15,14 +15,16 @@ To price a call option C, we have:
 
 
 In this formula,
-C(S<sub>0</sub> = the price of our call option AKA the final output
+C(S<sub>0</sub>,t) = the price of our call option AKA the final output
 
-S = the price of the underlying security
+S<sub>0</sub> = the price of the underlying security
 
 K = the strike price
 
-t = time to expiration
+(T - t) = time to expiration
 
 r = risk-free interest rate
+
+$\sigma$ = the volatility of the underlying security
 
 N = our cdf function
