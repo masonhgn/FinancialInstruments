@@ -15,7 +15,7 @@ To price a call option C, we have:
 
 
 In this formula,
-C = the price of our call option AKA the final output
+C(S<sub>0</sub> = the price of our call option AKA the final output
 
 S = the price of the underlying security
 
