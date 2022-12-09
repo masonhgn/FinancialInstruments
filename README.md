@@ -1,4 +1,4 @@
-# FinancialInstruments
+# Financial Instruments and Models Implementation
 
 This is a simple financial command line tool that currently has support for these options:
 1. Black Scholes Model (Theoretical Pricing Model)
