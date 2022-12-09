@@ -6,7 +6,7 @@ This is a simple financial command line tool that currently has support for thes
 
 
 
-#Theoretical Pricing Models
+# Theoretical Pricing Models
 ## Black Scholes Model
 
 To price a call option C, we have:
